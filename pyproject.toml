@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dosc"
+version = "1.0.0"
+description = "Dynamic Optimal Synthetic Cohorts (DOSC): Data-driven synthetic cohort estimator with endogenous dimension selection and measurement error correction for repeated cross-sections."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Gustavo Fernando Huaman Fernandez", email = "gushf8@users.noreply.github.com"}
+]
+keywords = [
+    "econometrics",
+    "synthetic-cohorts",
+    "pseudo-panel",
+    "repeated-cross-sections",
+    "panel-data",
+    "deaton-estimator",
+    "causal-inference",
+    "measurement-error"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=1.4.0",
+    "scipy>=1.8.0",
+    "scikit-learn>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "matplotlib>=3.5.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/gushf8/dosc"
+Repository = "https://github.com/gushf8/dosc.git"
+"Bug Tracker" = "https://github.com/gushf8/dosc/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

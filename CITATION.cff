@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this Python software in your research or applications, please cite it as below."
+type: software
+authors:
+  - family-names: "Huaman Fernandez"
+    given-names: "Gustavo Fernando"
+    orcid: "https://orcid.org/0009-0006-6570-2582"
+    affiliation: "Escuela de Posgrado, Universidad Tecnológica del Perú (UTP)"
+    email: "E26203243@postgradoutp.edu.pe"
+title: "DOSC: Dynamic Optimal Synthetic Cohorts for Pseudo-Panel Econometrics"
+version: 1.0.0
+date-released: 2026-11-17
+doi: "10.5281/zenodo.24326322"
+license: MIT
+repository-code: "https://github.com/gushf8/dosc"
+url: "https://doi.org/10.5281/zenodo.24326322"
+keywords:
+  - econometrics
+  - pseudo-panels
+  - synthetic cohorts
+  - python
+  - causal inference
+  - repeated cross-sections
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Huaman Fernandez"
+      given-names: "Gustavo Fernando"
+      orcid: "https://orcid.org/0009-0006-6570-2582"
+      affiliation: "Escuela de Posgrado, Universidad Tecnológica del Perú (UTP)"
+  title: "Can Repeated Cross-Sections Replicate Panels? Optimal Synthetic Cohorts for Complex Survey Econometrics"
+  year: 2026
+  doi: "10.5281/zenodo.24326322"
+  url: "https://doi.org/10.5281/zenodo.24326322"
